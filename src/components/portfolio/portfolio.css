@@ -1,0 +1,17 @@
+.portfolio {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  .portfolio-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }

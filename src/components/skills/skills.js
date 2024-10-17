@@ -1,6 +1,8 @@
 import React from 'react';
 import './skills.css';
+import { Button } from '@nextui-org/react';
 import reactIcon from '../../assets/react-icon.png';
+
 
 const skillsData = [
   { icon: reactIcon, name: 'React' },
@@ -22,6 +24,12 @@ function Skills() {
           </div>
         ))}
       </div>
+      <Button
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        auto
+      >
+        Click Me
+      </Button>
     </div>
   );
 }
