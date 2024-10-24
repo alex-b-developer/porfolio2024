@@ -15,7 +15,7 @@ const skillsData = [
 function Skills() {
   return (
     <div className="skills">
-      <h2 className="skills-title">My Skills</h2>
+      <h1 className="skills-title">Tech Stack and Core Competencies</h1>
       <div className="skills-container">
         {skillsData.map((skill, index) => (
           <div key={index} className="skill">
@@ -24,12 +24,6 @@ function Skills() {
           </div>
         ))}
       </div>
-      <Button
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        auto
-      >
-        Click Me
-      </Button>
     </div>
   );
 }
