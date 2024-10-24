@@ -20,10 +20,6 @@ function App() {
         <Skills />
       </main>
     </div>
-    <div>
-        <h1> My capabilities</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-      </div>
   </NextUIProvider>
   );
 }

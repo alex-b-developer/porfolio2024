@@ -1,15 +1,27 @@
 import React from 'react';
 import './skills.css';
 import { Button } from '@nextui-org/react';
+import figmaIcon from '../../assets/figma-icon.png';
 import reactIcon from '../../assets/react-icon.png';
+import htmlIcon from '../../assets/html5-icon.png';
+import cssIcon from '../../assets/css-icon.png';
+import jsIcon from '../../assets/js-icon.png';
+import mysqlIcon from '../../assets/mysql2-icon.png';
+import wordpressIcon from '../../assets/wordpress-icon.png';
+import nodejsIcon from '../../assets/nodejs-icon.png';
+import gitIcon from '../../assets/git-icon.png'
 
 
 const skillsData = [
+  { icon: figmaIcon, name: 'Figma' },
+  { icon: htmlIcon, name: 'HTML' },
+  { icon: cssIcon, name: 'CSS' },
+  { icon: jsIcon, name: 'JavaScript' },
+  { icon: mysqlIcon, name: 'MySql' },
+  { icon: wordpressIcon, name: 'Wordpress' },
   { icon: reactIcon, name: 'React' },
-  { icon: reactIcon, name: 'Git' },
-  { icon: reactIcon, name: 'HTML' },
-  { icon: reactIcon, name: 'CSS' },
-  { icon: reactIcon, name: 'JavaScript' }
+  { icon: nodejsIcon, name: 'NodeJS' },
+  { icon: gitIcon, name: 'GIT' }
 ];
 
 function Skills() {
