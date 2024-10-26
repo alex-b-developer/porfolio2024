@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './index.css';
 import Showcase from './components/showcase/showcase';
@@ -12,7 +11,8 @@ function App() {
  <NextUIProvider>
     <div className="App">
       <header className="App-header">
-        <p>This is my beautiful website</p>
+      <a href="https://wa.me/573148734025" target="_blank" rel="noreferrer">
+          DO YOU WANT TO GET A PROFESSIONAL WEBSITE? CONTACT ME NOW!</a>
         <Showcase />
       </header>
       <main>

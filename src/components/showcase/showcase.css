@@ -2,13 +2,21 @@
   position: relative;
   width: 100%;
   height: 100vh; /* Ajusta la altura según tus necesidades */
-  background: url('/src/assets/showcase-bg.jpeg') no-repeat center center/cover;
+  overflow: hidden; /* Para evitar que el video se salga del contenedor */
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
-  background-attachment: fixed;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Para que los clics pasen a través del iframe */
 }
 
 .overlay {
