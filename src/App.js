@@ -4,6 +4,7 @@ import './index.css';
 import Showcase from './components/showcase/showcase';
 import Skills from './components/skills/skills';
 import Portfolio from './components/portfolio/portfolio';
+import About from './components/about/about'
 import {NextUIProvider} from "@nextui-org/react";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           </h1>
         <Portfolio />
         <Skills />
+        <About />
       </main>
     </div>
   </NextUIProvider>
