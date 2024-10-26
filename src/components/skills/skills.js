@@ -27,7 +27,7 @@ const skillsData = [
 function Skills() {
   return (
     <div className="skills">
-      <h1 className="skills-title">Tech Stack and Core Competencies</h1>
+      <h1 className="skills-title text-2xl">Tech Stack and Core Competencies</h1>
       <div className="skills-container">
         {skillsData.map((skill, index) => (
           <div key={index} className="skill">

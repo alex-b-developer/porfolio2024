@@ -15,7 +15,9 @@ function App() {
         <Showcase />
       </header>
       <main>
-        <h1 class="text-black font-medium text-2xl">Recent Work</h1>
+        <h1 class="text-black font-medium text-2xl pt-10 pb-5">
+          Recent Work
+          </h1>
         <Portfolio />
         <Skills />
       </main>
