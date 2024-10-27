@@ -1,17 +1,18 @@
 import React from "react";
 import "./about.css";
+import videoSource from '../../assets/dev-bg.mp4';
 
 function About() {
   return (
     <div className="about">
-      <iframe
-        className="video-background"
-        src="https://www.youtube.com/embed/mOFoh9FUR8w?autoplay=1&mute=1&loop=1&playlist=mOFoh9FUR8w"
-        frameBorder="0"
-        allow="autoplay; encrypted-media"
-        allowFullScreen
-        title="video"
-      ></iframe>
+      <video 
+        className="about-video-background"
+        src={videoSource}
+        autoPlay 
+        muted 
+        loop 
+        playsInline
+      ></video>
       <div className="overlay-about"></div>
 
       <p>
